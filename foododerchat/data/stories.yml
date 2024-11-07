@@ -1,0 +1,34 @@
+version: "3.1"
+
+stories:
+
+
+- story: hang_quan
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: dat_hang
+  - action: utter_dat_hang
+  - intent: don_hang
+  - action: utter_don_hang
+  - intent: thong_tin
+  - action: utter_thong_tin
+  - intent: xac_nhan
+  - action: utter_xac_nhan
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- story: hang_khong
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: dat_hang
+  - action: utter_dat_hang
+  - intent: don_hang
+  - action: utter_don_hang
+  - intent: thong_tin
+  - action: utter_thong_tin
+  - intent: khong_xac_nhan
+  - action: utter_khong_xac_nhan
+  - intent: tam_biet
+  - action: utter_tam_biet

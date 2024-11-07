@@ -1,0 +1,37 @@
+version: "3.1"
+
+intents:
+  - chao_hoi
+  - xac_nhan
+  - khong_xac_nhan
+  - tam_biet
+  - don_hang
+  - thong_tin
+  - dat_hang
+
+responses:
+  utter_chao_hoi:
+  - text: "Rất vui được phục vụ, Quý khách cần gì ạ?"
+
+  utter_xac_nhan:
+  - text: "Đơn hàng của Quý khách đang được xử lý ạ."
+
+  utter_khong_xac_nhan:
+  - text: "Xin Quý khách chọn món lại ạ."
+
+  utter_tam_biet:
+  - text: "Xin cảm ơn Quý khách, Hẹn gặp lại ạ."
+
+  utter_don_hang:
+  - text: "Xin Quý khách cung cấp thông tin để giao hàng ạ."
+
+  utter_thong_tin:
+  - text: "Quý khách có chắn chắn đặt hàng không ạ."
+
+  utter_dat_hang:
+  - text: "Bên cửa hàng chúng tôi có bán các món như: Cơm gà, Sushi, Bún Bò, Phở Gà, Mì Cay, Pizza, Nước Ép Cam. Xin Quý khách lựa chọn ạ."
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

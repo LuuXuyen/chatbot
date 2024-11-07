@@ -1,0 +1,60 @@
+version: "3.1"
+
+nlu:
+- intent: chao_hoi
+  examples: |
+    - chào
+    - xin chào 
+    - hello
+    - hi
+
+- intent: tam_biet
+  examples: |
+    - cảm ơn
+    - thank you
+    - bye
+    - kết thúc
+
+- intent: xac_nhan
+  examples: |
+    - ok
+    - y
+    - yes
+    - có
+    - c
+
+- intent: dat_hang
+  examples: |
+    - tôi muốn đặt món
+    - đặt món
+    - có nhưng món ăn nào 
+
+- intent: khong_xac_nhan
+  examples: |
+    - không
+    - k 
+    - no 
+    - n
+    
+- intent: thong_tin
+  examples: |
+    - địa chỉ của tôi là
+    - tên tôi là
+    - nhà tôi ở 
+    - tôi ở
+    - ở 
+    - số nhà là 
+    - số điện thoại
+    - 0
+
+
+- intent: don_hang
+  examples: |
+    - Cơm gà
+    - Bún bò
+    - Phở gà
+    - Mì cay
+    - Pizza
+    - Sushi
+    - Nước ép cam
+

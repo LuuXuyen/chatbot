@@ -1,0 +1,39 @@
+version: "3.1"
+
+rules:
+
+- rule: chào hỏi
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+
+- rule: xác nhận
+  steps:
+  - intent: xac_nhan
+  - action: utter_xac_nhan
+
+- rule: không xác nhận
+  steps:
+  - intent: khong_xac_nhan
+  - action: utter_khong_xac_nhan
+
+- rule: tạm biệt
+  steps:
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- rule: đơn hàng
+  steps:
+  - intent: don_hang
+  - action: utter_don_hang
+
+- rule: thông tin
+  steps:
+  - intent: thong_tin
+  - action: utter_thong_tin
+
+- rule: đặt hàng
+  steps:
+  - intent: dat_hang
+  - action: utter_dat_hang
+
